@@ -45,11 +45,14 @@
   padding: 0px;
 }
 
-.task-row-wrapper, .title {
+.task-row-wrapper,
+.title {
   list-style: none;
 }
 
-.checkbox, .task,.btn{
+.checkbox,
+.task,
+.btn{
   outline: none;
 }
 
