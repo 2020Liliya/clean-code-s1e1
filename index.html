@@ -8,46 +8,46 @@
 </head>
 <body class="page">
   <header class="header">
-    <img class="header-img" src="./eisenhower-matrix.jpg" alt="priority matrix image>
-    <a class="more-inf-link" href="https://goal-life.com/page/method/matrix-eisenhower">
+    <img class="header__img" src="./eisenhower-matrix.jpg" alt="priority matrix image">
+    <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">
         want more details?</a>
   </header>
   <main class="main">
     <section id="add-tasks">
       <h3 class="title">add item</h3>
-      <div class="task-row-wrapper">
-        <input id="new-task"class="task input-task" type="text">
-        <button class="btn">add</button>
+      <div class="task-wrapper">
+        <input id="new-task" class="task-wrapper__task task-wrapper__input" type="text">
+        <button class="task-wrapper__btn">add</button>
       </div>
     </section>
-    <section class="tasks-wrapper" >
+    <section class="tasks-wrapper">
       <h3 class="title">todo</h3>
-      <div class="incomplete-elements" id="incomplete-tasks">
-        <div class="task-row-wrapper">
-          <input type="checkbox" class="checkbox">
-          <label class="task task-label">pay bills</label>
-          <input type="text" class="task input-task">
-          <button class="btn edit">edit</button>
-          <button class="btn delete"><img class="delete-img" src="./remove.svg" alt="task removal picture"></button>
+      <div id="incomplete-tasks">
+        <div class="task-wrapper">
+          <input type="checkbox" class="task-wrapper__checkbox">
+          <label class="task-wrapper__task task-wrapper__label">pay bills</label>
+          <input type="text" class="task-wrapper__task task-wrapper__input">
+          <button class="task-wrapper__btn task-wrapper__btn_edit">edit</button>
+          <button class="task-wrapper__btn task-wrapper__btn_delete"><img class="task-wrapper__img" src="./remove.svg" alt="task removal picture"></button>
         </div>
-        <div class="task-row-wrapper edit-mode">
-          <input type="checkbox" class="checkbox">
-          <label class="task task-label">go shopping</label>
-          <input type="text" value="go shopping" class="task input-task">
-          <button class="btn edit">save</button>
-          <button class="btn delete"><img class="delete-img" src="./remove.svg" alt="task removal picture"></button>
+        <div class="task-wrapper task-wrapper_edit-mode">
+          <input type="checkbox" class="task-wrapper__checkbox">
+          <label class="task-wrapper__task task-wrapper__label">go shopping</label>
+          <input type="text" value="go shopping" class="task-wrapper__task task-wrapper__input">
+          <button class="task-wrapper__btn task-wrapper__btn_edit">save</button>
+          <button class="task-wrapper__btn task-wrapper__btn_delete"><img class="task-wrapper__img" src="./remove.svg" alt="task removal picture"></button>
         </div>
     </div>
     </section>
     <section class="tasks-wrapper">
       <h3 class="title">completed</h3>
-      <div class="complete-elements" id="completed-tasks">
-        <div class="task-row-wrapper">
-          <input type="checkbox" class="checkbox" checked>
-          <label class="task task-label">see the doctor</label>
-          <input type="text" class="task input-task">
-          <button class="btn edit">edit</button>
-          <button class="btn delete"><img class="delete-img" src="./remove.svg" alt="task removal picture"></button>
+      <div id="completed-tasks">
+        <div class="task-wrapper">
+          <input type="checkbox" class="task-wrapper__checkbox" checked>
+          <label class="task-wrapper__task task-wrapper__label">see the doctor</label>
+          <input type="text" class="task-wrapper__task task-wrapper__input">
+          <button class="task-wrapper__btn task-wrapper__btn_edit">edit</button>
+          <button class="task-wrapper__btn task-wrapper__btn_delete"><img class="task-wrapper__img" src="./remove.svg" alt="task removal picture"></button>
         </div>
     </div>
     </section>
