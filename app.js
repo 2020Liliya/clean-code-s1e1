@@ -34,7 +34,7 @@ var createNewTaskElement=function(taskString){
   var deleteButtonImg=document.createElement("img");//delete button image
 
   label.innerText=taskString;
-  label.className='task-wrapper__task';
+  label.className="task-wrapper__task";
   label.classList.toggle("task-wrapper__label");
 
   //Each elements, needs appending
@@ -51,7 +51,7 @@ var createNewTaskElement=function(taskString){
 
   deleteButton.className="task-wrapper__btn";
   deleteButton.classList.toggle("task-wrapper__btn_delete");
-  deleteButtonImg.src='./remove.svg';
+  deleteButtonImg.src="./remove.svg";
   deleteButtonImg.alt="task removal picture";
   deleteButtonImg.className="task-wrapper__img";
   deleteButton.appendChild(deleteButtonImg);
@@ -91,7 +91,7 @@ var editTask=function(){
 
   var listItem=this.parentNode;
 
-  var editInput=listItem.querySelector('.task-wrapper__input');
+  var editInput=listItem.querySelector(".task-wrapper__input");
   var label=listItem.querySelector("label");
   var editBtn=listItem.querySelector(".task-wrapper__btn_edit");
   var containsClass=listItem.classList.contains("task-wrapper_edit-mode");
